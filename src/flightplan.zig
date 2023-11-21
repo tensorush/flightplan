@@ -3,7 +3,7 @@
 const std = @import("std");
 
 pub const fms = @import("fms.zig");
-// pub const fpl = @import("fpl.zig");
+pub const fpl = @import("fpl.zig");
 pub const Plan = @import("Plan.zig");
 pub const Route = @import("Route.zig");
 pub const Runway = @import("Runway.zig");
