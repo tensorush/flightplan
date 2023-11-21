@@ -1,0 +1,11 @@
+.{
+    .name = "flightplan",
+    .version = "0.1.0",
+    .dependencies = .{
+        .xml = .{
+            .url = "https://github.com/ianprime0509/zig-xml/archive/e593568.tar.gz",
+            .hash = "12205607a626f880d7bcadadeb44345315d962f454d4788fa8c32fbfbf24f744f695",
+        },
+    },
+    .paths = .{""},
+}
