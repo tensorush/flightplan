@@ -2,15 +2,15 @@
 
 [![CI][ci-shield]][ci-url]
 [![CD][cd-shield]][cd-url]
-[![Docs][docs-shield]][docs-url]
-[![Codecov][codecov-shield]][codecov-url]
-[![License][license-shield]][license-url]
+[![DC][dc-shield]][dc-url]
+[![CC][cc-shield]][cc-url]
+[![LC][lc-shield]][lc-url]
 
 ### Maintained fork of the [Zig library for reading and writing flight plans in various formats](https://github.com/mitchellh/libflightplan) created by [Mitchell Hashimoto](https://github.com/mitchellh).
 
 ### :warning: Warning
 
-When planning an actual flight, be extremely careful to verify the library output in your avionics or EFB!!!
+#### When planning an actual flight, be extremely careful to verify the library output in your avionics or EFB!!!
 
 ### :rocket: Usage
 
@@ -66,9 +66,9 @@ When planning an actual flight, be extremely careful to verify the library outpu
 [ci-url]: https://github.com/tensorush/flightplan/blob/main/.github/workflows/ci.yaml
 [cd-shield]: https://img.shields.io/github/actions/workflow/status/tensorush/flightplan/cd.yaml?branch=main&style=for-the-badge&logo=github&label=CD&labelColor=black
 [cd-url]: https://github.com/tensorush/flightplan/blob/main/.github/workflows/cd.yaml
-[docs-shield]: https://img.shields.io/badge/click-F6A516?style=for-the-badge&logo=zig&logoColor=F6A516&label=docs&labelColor=black
-[docs-url]: https://tensorush.github.io/flightplan
-[codecov-shield]: https://img.shields.io/codecov/c/github/tensorush/flightplan?style=for-the-badge&labelColor=black
-[codecov-url]: https://app.codecov.io/gh/tensorush/flightplan
-[license-shield]: https://img.shields.io/github/license/tensorush/flightplan.svg?style=for-the-badge&labelColor=black
-[license-url]: https://github.com/tensorush/flightplan/blob/main/LICENSE.md
+[dc-shield]: https://img.shields.io/badge/click-F6A516?style=for-the-badge&logo=zig&logoColor=F6A516&label=docs&labelColor=black
+[dc-url]: https://tensorush.github.io/flightplan
+[cc-shield]: https://img.shields.io/codecov/c/github/tensorush/flightplan?style=for-the-badge&labelColor=black
+[cc-url]: https://app.codecov.io/gh/tensorush/flightplan
+[lc-shield]: https://img.shields.io/github/license/tensorush/flightplan.svg?style=for-the-badge&labelColor=black
+[lc-url]: https://github.com/tensorush/flightplan/blob/main/LICENSE.md
