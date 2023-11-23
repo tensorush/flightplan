@@ -1,4 +1,4 @@
-## :lizard: :airplane: **flightplan**
+## :lizard: :small_airplane: **flightplan**
 
 [![CI][ci-shield]][ci-url]
 [![CD][cd-shield]][cd-url]
@@ -6,7 +6,7 @@
 [![CC][cc-shield]][cc-url]
 [![LC][lc-shield]][lc-url]
 
-### Maintained fork of the [Zig library for reading and writing flight plans in various formats](https://github.com/mitchellh/libflightplan) created by [Mitchell Hashimoto](https://github.com/mitchellh).
+### [Flight plan](https://en.wikipedia.org/wiki/Flight_plan) parsing utilities based on the [libflightplan repo](https://github.com/mitchellh/libflightplan) created by [Mitchell Hashimoto](https://github.com/mitchellh).
 
 ### :warning: Warning
 
