@@ -10,7 +10,7 @@
 
 ### :warning: Warning
 
-#### When planning an actual flight, be extremely careful to verify the library output in your avionics or EFB!!!
+#### **When planning an actual flight, be extremely careful to verify the library output in your avionics or EFB!!!**
 
 ### :rocket: Usage
 
@@ -59,6 +59,10 @@
 |-------------------------------------------------------------------------------------------|:---------:|:--------------:|:--------------:|
 | [ForeFlight & Garmin](https://www8.garmin.com/xmlschemas/FlightPlanv1.xsd)                |    FPL    | :green_circle: | :green_circle: |
 | [X-Plane 11](https://developer.x-plane.com/article/flightplan-files-v11-fms-file-format/) |    FMS    |  :red_circle:  | :green_circle: |
+
+### :teacher: Resources
+
+- #### :tv: [Private Pilot Ground School Videos from MIT](https://www.youtube.com/playlist?list=PLUl4u3cNGP63cUdAG3v311Vl72ozOiK25)
 
 <!-- MARKDOWN LINKS -->
 
