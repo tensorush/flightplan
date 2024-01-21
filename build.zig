@@ -1,14 +1,14 @@
 const std = @import("std");
 
 pub fn build(b: *std.Build) void {
-    const root_source_file = std.Build.FileSource.relative("src/flightplan.zig");
+    const root_source_file = std.Build.LazyPath.relative("src/flightplan.zig");
 
     // Dependencies
     const xml_dep = b.dependency("xml", .{});
     const xml_mod = xml_dep.module("xml");
 
     // Module
-    _ = b.addModule("flightplan", .{ .source_file = root_source_file });
+    _ = b.addModule("flightplan", .{ .root_source_file = root_source_file });
 
     // Library
     const lib_step = b.step("lib", "Install library");
@@ -20,7 +20,7 @@ pub fn build(b: *std.Build) void {
         .optimize = b.standardOptimizeOption(.{}),
         .version = .{ .major = 0, .minor = 1, .patch = 0 },
     });
-    lib.addModule("xml", xml_mod);
+    lib.root_module.addImport("xml", xml_mod);
 
     const lib_install = b.addInstallArtifact(lib, .{});
     lib_step.dependOn(&lib_install.step);
@@ -44,7 +44,7 @@ pub fn build(b: *std.Build) void {
     const tests = b.addTest(.{
         .root_source_file = root_source_file,
     });
-    tests.addModule("xml", xml_mod);
+    tests.root_module.addImport("xml", xml_mod);
 
     const tests_run = b.addRunArtifact(tests);
     tests_step.dependOn(&tests_run.step);
